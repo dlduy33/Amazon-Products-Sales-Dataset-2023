@@ -1,0 +1,7 @@
+pyspark
+glob2
+randomtimestamp==2.2
+uuid
+kafka-python==2.0.2
+cassandra-driver==3.26.0
+mysqlclient
