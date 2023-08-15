@@ -16,7 +16,7 @@ Data is an Amazon sales product dataset 2023 found from Kaggle that includes fie
 - Apache Airflow: Used as a workflow manager, DAG is scheduled to run ETL to Data Warehouse and ETL to Data Mart at 00:00 on Monday (as Kafka, Airflow is used for learning purposes).
 - Docker:
   - [Dockerfile](https://github.com/dlduy33/Amazon-Products-Sales-Dataset-2023/blob/main/Dockerfile): Create an image and copy all data for Apache Airflow with the "apache/airflow:2.6.2-python3.10" image.
-  - [Docker compose](https://github.com/dlduy33/Amazon-Products-Sales-Dataset-2023/blob/main/docker-compose.yml): Image is used for each tool as follows:
+  - [Docker compose](https://github.com/dlduy33/Amazon-Products-Sales-Dataset-2023/blob/main/docker-compose.yml): Images are used for each tool as follows:
     - Airflow: apache/airflow:2.6.2-python3.10
     - Spark: docker.io/bitnami/spark:3.3
     - Cassandra: cassandra:4.1.1
